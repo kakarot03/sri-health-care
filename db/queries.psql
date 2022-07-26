@@ -1,0 +1,60 @@
+alter sequence patient_id_seq restart with 6011;
+
+-- department
+CREATE TABLE IF NOT EXISTS department (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL
+);
+
+
+-- doctor
+CREATE TABLE IF NOT EXISTS doctor (
+    id SERIAL NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    mobile BIGINT NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    department_id INT REFERENCES department(id) 
+);
+
+-- patient
+CREATE TABLE IF NOT EXISTS patient (
+    id SERIAL NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    mobile BIGINT NOT NULL,
+    address TEXT
+);
+
+-- appointment
+CREATE TABLE IF NOT EXISTS appointment (
+    id SERIAL PRIMARY KEY,
+    patient_id INT REFERENCES patient(id) NOT NULL,
+    doctor_id INT REFERENCES doctor(id) NOT NULL,
+    appointment_date DATE NOT NULL,
+    created_date DATE DEFAULT CURRENT_DATE
+);
+
+-- bill
+CREATE TABLE IF NOT EXISTS bill (
+    id SERIAL NOT NULL PRIMARY KEY,
+    patient_id INT REFERENCES patient(id) NOT NULL,
+    doctor_id INT REFERENCES doctor(id) NOT NULL,
+    appointment_id INT REFERENCES appointment(id),
+    amount INT NOT NULL,
+    date Date DEFAULT CURRENT_DATE
+);
+
+-- Disease
+CREATE TABLE IF NOT EXISTS disease (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(50),
+    symptoms TEXT[],
+    department_id INT REFERENCES department(id)
+);
+
+-- Specialization
+CREATE TABLE IF NOT EXISTS specialization (
+    disease_id INT REFERENCES disease(id),
+    department_id INT REFERENCES department(id) 
+);

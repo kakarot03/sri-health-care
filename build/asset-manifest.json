@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d04938d.css",
+    "main.js": "/static/js/main.aa11b3f3.js",
+    "static/media/PH3.jpg": "/static/media/PH3.b3befbf92af3fba10611.jpg",
+    "static/media/PH1.jpg": "/static/media/PH1.a6877f3e0223ac1b6ebd.jpg",
+    "static/media/appointment.png": "/static/media/appointment.b1940fa1e4b504a8e866.png",
+    "static/media/adminImg.jpg": "/static/media/adminImg.c2eff9522a9f7b520775.jpg",
+    "static/media/doctors.png": "/static/media/doctors.fd9ee42be8e737dde694.png",
+    "static/media/PH2.jpg": "/static/media/PH2.e66133f7a228c02bf3d9.jpg",
+    "static/media/image3.jpg": "/static/media/image3.1288e06a724f8c165f98.jpg",
+    "static/media/image2.jpg": "/static/media/image2.b29a8ad3abcad356b980.jpg",
+    "static/media/logo.png": "/static/media/logo.260b2d3cec9cb9189315.png",
+    "static/media/pic-1.png": "/static/media/pic-1.b105fe43e8bf62808d9f.png",
+    "static/media/pic-2.png": "/static/media/pic-2.5d5e42bfc8bc3622b556.png",
+    "static/media/pic-3.png": "/static/media/pic-3.1ef1ecba9db4ad9c12c8.png",
+    "static/media/doc-6.jpg": "/static/media/doc-6.be2a77adde3dc48f9d5b.jpg",
+    "static/media/about-img.svg": "/static/media/about-img.999b21c365609420443e5d0e0b3ff906.svg",
+    "static/media/doc-2.jpg": "/static/media/doc-2.9045579a47c3fd89b17c.jpg",
+    "static/media/image1.jpg": "/static/media/image1.3128ee0394c706f5637c.jpg",
+    "static/media/homeimg.svg": "/static/media/homeimg.b08460842f9cca0252144722853341f4.svg",
+    "static/media/doc-5.jpg": "/static/media/doc-5.22ac1d594f69ddaf3e08.jpg",
+    "static/media/blog-1.jpg": "/static/media/blog-1.142698a07f1a06033fed.jpg",
+    "static/media/doc-1.jpg": "/static/media/doc-1.d03a0686030bcd2f05ec.jpg",
+    "static/media/blog-2.jpg": "/static/media/blog-2.43f3cf436df805130894.jpg",
+    "static/media/doc-3.jpg": "/static/media/doc-3.0d822ecc51b2532abe0e.jpg",
+    "static/media/doc-4.jpg": "/static/media/doc-4.24eb182159ea2d58610f.jpg",
+    "static/media/blog-3.jpg": "/static/media/blog-3.70ca9bb2a7e7e345cd05.jpg",
+    "static/media/book-img.svg": "/static/media/book-img.a922349a2af37cd140cae23123d28f95.svg",
+    "static/media/hello.svg": "/static/media/hello.4a9307f436a107a4b8083e617722bb54.svg",
+    "static/media/avatar.svg": "/static/media/avatar.1a84bdf0618d94b9baafe4fcdced2776.svg",
+    "index.html": "/index.html",
+    "main.4d04938d.css.map": "/static/css/main.4d04938d.css.map",
+    "main.aa11b3f3.js.map": "/static/js/main.aa11b3f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d04938d.css",
+    "static/js/main.aa11b3f3.js"
+  ]
+}
