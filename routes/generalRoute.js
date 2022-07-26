@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const db = require('../db');
 
-router.get('/adminAuth', async (req, res) => {
+router.get('/adminAuthServer', async (req, res) => {
   console.log(req);
   try {
     const admin = await db.query('select * from admin');
